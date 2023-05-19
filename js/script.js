@@ -1,0 +1,15 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const yesButton = document.querySelector(".yes-button");
+    const noButton = document.querySelector(".no-button");
+  
+    yesButton.addEventListener("click", function() {
+      yesButton.classList.add("clicked");
+    });
+  
+    noButton.addEventListener("mousemove", function() {
+      let x = Math.floor(Math.random() * 251) - 125;
+      let y = Math.floor(Math.random() * 51) - 25;
+      noButton.style.transform = `translate(${x}px, ${y}px)`;
+    });
+  });
+  

@@ -1,6 +1,6 @@
 .container {
-    width: 450px;
-    height: 250px;
+    width: 600px;
+    height: 450px;
     background-color: #fad6d6;
     border: 2px solid #ee8989;
     text-align: center;
@@ -12,7 +12,7 @@
   }
   
   .question {
-    font-size: 24px;
+    font-size: 40px;
     margin-top: 50px;
   }
   
@@ -24,8 +24,8 @@
   }
   
   button {
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 35px 50px;
+    font-size: 23px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;

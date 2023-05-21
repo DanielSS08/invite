@@ -136,3 +136,8 @@ main .descricao {
 	font-size: 14px;
 	padding-right: 10px;
 }
+
+a {
+	color: #333333;
+	text-decoration: none;
+}

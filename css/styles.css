@@ -1,6 +1,6 @@
 .container {
-    width: 600px;
-    height: 450px;
+    width: 650px;
+    height: 630px;
     background-color: #fad6d6;
     border: 2px solid #ee8989;
     text-align: center;
@@ -10,11 +10,18 @@
     transform: translate(-50%, -50%);
     border-radius: 10px;
   }
+
+  .container img {
+    width: 300px;
+    height: 350px;
+  }
   
   .question {
     font-size: 40px;
     margin-top: 50px;
+    font-family: 'Snell Roundhand', sans-serif;
   }
+    
   
   .options {
     position: absolute;
@@ -32,11 +39,11 @@
   }
   
   .yes-button {
-    background-color: green;
+    background-color: rgb(190, 116, 197);
   }
   
   .yes-button.clicked {
-    background-color: green;
+    background-color: rgb(247, 241, 164);
   }
   
   .no-button {

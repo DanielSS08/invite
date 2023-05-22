@@ -30,7 +30,7 @@ header #botao-alterar-tema {
 
 header .logo:hover,
 header .imagem-botao:hover,
-main .cartao-pokemon:hover {
+main .cartao-convite:hover {
 	transform: scale(1.05);
 	cursor: pointer;
 }
@@ -39,14 +39,14 @@ main {
 	padding: 25px;
 }
 
-main .listagem-pokemon {
+main .listagem-convite {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 	justify-content: center;
 }
 
-main .cartao-pokemon {
+main .cartao-convite {
 	background-color: #e2cae7;
 	width: 200px;
 	padding: 15px;
@@ -58,38 +58,38 @@ main .cartao-pokemon {
 	transition: 0.2s ease-in-out;
 }
 
-main .cartao-pokemon:hover {
+main .cartao-convite:hover {
 	background-color: #fffda2;
 }
 
-.modo-escuro .cartao-pokemon {
+.modo-escuro .cartao-convite {
 	background-color: #a8a8a8;
 }
 
-main .cartao-pokemon .informacoes {
+main .cartao-convite .informacoes {
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #333333;
 	border-radius: 10px;
 }
 
-main .cartao-pokemon .informacoes span {
+main .cartao-convite .informacoes span {
 	padding: 5px;
 	text-transform: uppercase;
 	font-size: 17px;
 }
 
-main .cartao-pokemon .gif {
+main .cartao-convite .gif {
 	width: 90px;
 	height: 90px;
 }
 
-main .cartao-pokemon .tipos {
+main .cartao-convite .tipos {
 	display: flex;
 	gap: 15px;
 }
 
-main .cartao-pokemon .tipo {
+main .cartao-convite .tipo {
 	padding: 8px;
 	border-radius: 10px;
 }
@@ -103,7 +103,7 @@ main .cartao-pokemon .tipo {
 }
 
 .braba {
-	background-color: #f37e1d;
+	background-color: #f79749;
 }
 
 .doce {
@@ -112,6 +112,10 @@ main .cartao-pokemon .tipo {
 
 .gelado {
 	background-color: #fd9c99;
+}
+
+.cinema {
+	background-color: #e699fd;
 }
 
 .veneno {
@@ -138,6 +142,6 @@ main .descricao {
 }
 
 a {
-	color: #333333;
+	color: #413763;
 	text-decoration: none;
 }

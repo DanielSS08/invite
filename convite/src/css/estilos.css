@@ -1,0 +1,166 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #5e5b5bad;
+	color: #333333;
+}
+
+body.modo-escuro {
+	background-color: #212121;
+	color: #f5f5f5;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+header .logo,
+header .imagem-botao {
+	width: 45px;
+	transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+	background: none;
+	border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-convite:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+main {
+	padding: 25px;
+}
+
+main .listagem-convite {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+main .cartao-convite {
+	background-color: #e2cae7;
+	width: 200px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+}
+
+main .cartao-convite:hover {
+	background-color: #fffda2;
+}
+
+.modo-escuro .cartao-convite {
+	background-color: #a8a8a8;
+}
+
+main .cartao-convite .informacoes {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #333333;
+	border-radius: 10px;
+}
+
+main .cartao-convite .informacoes span {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+main .cartao-convite .gif {
+	width: 90px;
+	height: 90px;
+}
+
+main .cartao-convite .tipos {
+	display: flex;
+	gap: 15px;
+}
+
+main .cartao-convite .tipo {
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.larika {
+	background-color: #ffea31;
+}
+
+.vamo {
+	background-color: #31e0ff;
+}
+
+.braba {
+	background-color: #f79749;
+}
+
+.doce {
+	background-color:#df67ddfb;
+}
+
+.gelado {
+	background-color: #fd9c99;
+}
+
+.cinema {
+	background-color: #e699fd;
+}
+
+.veneno {
+	background-color: #df67ddfb;
+}
+
+.fogo {
+	background-color: #ee8130;
+}
+
+.agua {
+	background-color: #6390f0;
+}
+
+.inseto {
+	background-color: #a6b91a;
+}
+.streaming {
+	background-color: #ebf5a2;
+}
+
+.casal {
+	background-color: #ec4398;
+}
+
+.estudar {
+	background-color: #dba1be;
+}
+
+.ring {
+	background-color: #f7de54;
+}
+
+.fofoca {
+	background-color: #95f754;
+}
+
+main .descricao {
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+a {
+	color: #413763;
+	text-decoration: none;
+}

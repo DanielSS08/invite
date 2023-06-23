@@ -1,0 +1,46 @@
+.container {
+    position: fixed;
+    right: 20px; /* Distância da borda direita */
+    top: 20px; /* Distância da borda superior */
+  }
+  
+  .alert {
+    padding: 20px;
+    background-color: #f81b0c;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+  }
+  
+  .alert.success {
+    background-color: #ffd724;
+  }
+  
+  .alert.info {
+    background-color: #2196F3;
+  }
+  
+  .alert.warning {
+    background-color: #fa8f15;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+body {
+  background-color: #faf8f5;
+}
+  
